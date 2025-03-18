@@ -13,21 +13,18 @@ further_reading:
   text: 'Learn about the Datadog Browser SDK for Logs'
 ---
 
-<div class="alert alert-info">To preview RUM Auto-Instrumentation, follow the setup instructions to set up the SDK injector on your web server.</div>
-
 ## Overview
 
-Datadog RUM Auto-Instrumentation (server-side) lets you opt into Real User Monitoring (RUM) automatically by instrumenting web applications served through a web server or proxy.
-
-RUM Auto-Instrumentation works by injecting a RUM SDK JavaScript scriptlet into the HTML responses being served through a web server or proxy.
+RUM Auto-Instrumentation works by injecting the RUM Browser SDK into the HTML responses being served through a web server or proxy.
 
 ## Getting started
 
-<div class="alert alert-warning">To request support for a web server that is not listed here, <a href="https://www.datadoghq.com/private-beta/rum-sdk-auto-injection/">fill out this form.</a></div>
+<div class="alert alert-info">RUM Auto-Instrumentation is in Preview. To request support for a web server that is not listed here, <a href="https://www.datadoghq.com/private-beta/rum-sdk-auto-injection/">fill out this form.</a></div>
 
 Follow the relevant documentation for automatic instrumentation approach to learn more:
 
 {{< partial name="rum/rum-browser-setup.html" >}}
+
 
 ## Further reading
 
