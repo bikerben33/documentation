@@ -18,7 +18,7 @@ further_reading:
   text: "Advanced Configurations"
 ---
 
-If you experience unexpected behavior with CloudPrem, there are a few common issues you can investigate. 
+If you experience unexpected behavior with CloudPrem, there are a few common issues you can investigate. If you continue to have trouble, reach out to [Datadog support][1] for further assistance.
 
 ## Access permissions
 
@@ -38,28 +38,8 @@ If you put the wrong region, you will see this error:
 Command failed: Another error occurred. `Metastore error`. Cause: `StorageError(kind=Internal, source=failed to fetch object: s3://my-bucket/datadog-index/some-id.split)`
 ```
 
-
-
-
-1. Check pod status and logs:
-```bash
-# Check pod status
-kubectl get pods
-
-# Check logs for specific components
-kubectl logs -l component=<your-indexer-label>
-kubectl logs -l component=<your-searcher-label>
-kubectl logs -l component=<your-metastore-label>
-```
-
-2. Verify connectivity:
-- Ensure the Datadog agent can reach the internal ingress
-- Verify the public ingress is accessible from Datadog's services
-- Check that CloudPrem can access S3 and PostgreSQL
-
-If you continue to have trouble, reach out to Datadog support for further assistance.
-
 ## Further reading
 
 {{< partial name="whats-next/whats-next.html" >}}
 
+[1]: /getting_started/support/
