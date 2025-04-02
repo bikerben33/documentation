@@ -35,7 +35,7 @@ Schedule downtimes for system shutdowns, off-line maintenance, or upgrades witho
 
 ### Create a downtime schedule
 
-To schedule a monitor downtime in Datadog navigate to the [**Manage Downtimes**][1] page. Then, click the **Schedule Downtime** button in the upper right.
+To schedule a monitor downtime in Datadog navigate to the [**Manage Downtime**][1] page. Then, click the **Schedule Downtime** button in the upper right.
 
 To mute an individual monitor, click the **Mute** button at the top of the monitor status page. This creates a downtime schedule for that particular monitor.
 
@@ -133,7 +133,7 @@ The option to disable the first recovery notification is additive between multip
 
 ## Manage
 
-The [Manage Downtimes page][1] displays the list of active and scheduled downtimes. Select a downtime to view details, edit, or delete it. Details include its creator, its scope, and a list of the monitors it applies to.
+The [Manage Downtime page][1] displays the list of active and scheduled downtimes. Select a downtime to view details, edit, or delete it. Details include its creator, its scope, and a list of the monitors it applies to.
 Use the facets panel and the search bar to filter the list on the `Creator`, the `Scope`, `Monitor Tags`, or `Active`, `Automuted`, `Recurring` parameters.
 
 {{< img src="monitors/downtimes/downtime_manage.png" alt="manage downtime page" style="width:100%;">}}
@@ -148,7 +148,7 @@ Monitors trigger events when they change between possible states: `ALERT`, `WARN
 
 {{< img src="monitors/downtimes/downtime_on_alert.png" alt="Monitor status graph showing state transition to alert during downtime, will not create an alert event" style="width:80%;">}}
 
-**Note**: Muting or un-muting a monitor from the monitor status page does not delete scheduled downtimes associated with the monitor. To edit or delete a downtime, use the [Manage Downtimes][1] page or the [API][11].
+**Note**: Muting or un-muting a monitor from the monitor status page does not delete scheduled downtimes associated with the monitor. To edit or delete a downtime, use the [Manage Downtime][1] page or the [API][11].
 
 ### Expiration
 
